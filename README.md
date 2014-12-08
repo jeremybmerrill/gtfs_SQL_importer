@@ -1,6 +1,8 @@
 # About
 Quick & easy import of GTFS data into a SQL database.
 
+This is an exact fork of [cbick's repo](https://github.com/cbick/gtfs_SQL_importer) -- with GiST indexes removed because they break my postgresql and I don't need them for my purposes. (But I do need this repo to exist for an automated build.)
+
 * [GTFS (General Transit Feed Specification)](http://code.google.com/transit/spec/transit_feed_specification.html)
 * [List of Public GTFS feeds](http://code.google.com/p/googletransitdatafeed/wiki/PublicFeeds)
 
